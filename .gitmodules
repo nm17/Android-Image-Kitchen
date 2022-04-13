@@ -1,0 +1,15 @@
+[submodule "submodules/lz4"]
+	path = submodules/lz4
+	url = https://github.com/lz4/lz4.git
+[submodule "submodules/mkbootimg"]
+	path = submodules/mkbootimg
+	url = https://github.com/osm0sis/mkbootimg.git
+[submodule "submodules/BlobTools"]
+	path = submodules/BlobTools
+	url = https://github.com/AndroidRoot/BlobTools.git
+[submodule "submodules/mboot"]
+	path = submodules/mboot
+	url = https://github.com/osm0sis/mboot.git
+[submodule "submodules/mkmtkhdr"]
+	path = submodules/mkmtkhdr
+	url = https://github.com/osm0sis/mkmtkhdr.git

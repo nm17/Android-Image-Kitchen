@@ -1,0 +1,25 @@
+
+
+--add_includedirs(
+--    path.translate("$(projectdir)/submodules/u-boot/include"),
+--    --path.translate("$(projectdir)/submodules/u-boot/include/linux"),
+--    path.translate("$(projectdir)/submodules/u-boot/include/generated"),
+--    path.translate("$(projectdir)/submodules/u-boot/arch/arm/include"),
+--    path.translate("include")
+--)
+--
+---- Adapted from https://github.com/Homebrew/homebrew-core/blob/master/Formula/u-boot-tools.rb
+--
+--
+--target("mkimage")
+--    
+--
+--    set_kind(binary)
+--
+--    add_defines("TEST")
+--
+--    add_cxflags("-nostdlib", "-nolibc")
+--
+--    add_files(path.translate("$(scriptdir)/submodules/u-boot/tools/mkimage.c"))
+--
+--    add_headerfiles(path.translate("$(scriptdir)/submodules/u-boot/include/compiler.h"))
